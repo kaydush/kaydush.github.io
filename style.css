@@ -1,6 +1,7 @@
 .li {
 	color: yellow;
 }
+
 /*--- Media Queries --*/
 @media (max-width: 992px) {
 
