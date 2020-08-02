@@ -1,15 +1,15 @@
 #header{
 	background-image: url("img/apple.jpg"); 
-	background-position: center center; 
+	background-position: center; 
 	background-size: 100%;
 	color: white;
 	position: relative;
-	padding: 10px;
+	padding: 40px;
 }
 
 #header>*{
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 
 #header:after{
