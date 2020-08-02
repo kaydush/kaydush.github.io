@@ -1,6 +1,6 @@
 #header{
 	background-image: url("img/apple.jpg"); 
-	background-position: center; 
+	background-position: center center; 
 	background-size: 100%;
 	color: white;
 	position: relative;
@@ -9,7 +9,7 @@
 
 #header>*{
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 }
 
 #header:after{
