@@ -4,7 +4,7 @@
 	background-size: 100%;
 	color: white;
 	position: relative;
-	padding: 80px;
+	padding: 40px;
 }
 
 #header>*{
@@ -21,7 +21,6 @@
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
 }
-
 
 /*--- Media Queries --*/
 @media (max-width: 992px) {
