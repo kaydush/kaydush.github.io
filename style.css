@@ -19,8 +19,61 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,1);
 }
+/*--- Footer --*/
+.Footer{
+	background-color: rgba(0,0,0);
+	padding: 20px
+}
+
+/*--- Social Media Icon --*/
+.icon a{
+	font-size: 30px;
+	padding: 15px;
+}
+
+.fa-facebook-square{
+	color: #4267B2;
+}
+
+.fa-instagram{
+	color: #C13584;
+}
+
+.fa-twitter{
+	color: #1DA1F2;
+}
+
+.fa-youtube{
+	color: #DB4437;
+}
+
+/*--- Contact Footer --*/
+.contact i{
+	font-size: 30px;
+}
+
+.fa-envelope-open{
+	color: #FF0000;
+	padding: 5px;
+}
+
+.fa-envelope-open h5{
+	color: white;
+	padding: 10px;
+}
+
+.fa-phone-square-alt{
+	color: #4285F4;
+	padding: 5px;
+}
+
+.fa-phone-square-alt h5{
+	color: white;
+	padding: 10px;
+}
+
 
 /*--- Media Queries --*/
 @media (max-width: 992px) {
