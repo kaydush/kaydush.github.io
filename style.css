@@ -21,6 +21,29 @@
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
 }
+
+/*--- Services Icon --*/
+
+.serve i{
+	font-size: 50px;
+	padding: 20px;
+}
+
+.fa-palette{
+	color: #DC143C;
+}
+
+.fa-file-code{
+	color: #9E4A1B;
+}
+
+.fa-video{
+	color: #393665;
+}
+
+.fa-photo-video{
+	color: #BF1920;
+}
 /*--- Footer --*/
 .Footer{
 	background-color: rgba(0,0,0);
