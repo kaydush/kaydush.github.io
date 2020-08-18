@@ -1,183 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome || Hitvibes</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/aaca941933.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<!--Navigation-->
-<nav class=" navbar navbar-expand-md  navbar-light bg-warning sticky-top">
-<div class="container fluid">
-	<a class="navbar-brand" href="index.html"><img src="img/hitvibes3.png" width="200"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About Us</a>
-			<div class="dropdown-menu">
-				<a class="dropdown-item" href="About hitvibes.html">About Hitvibes</a>
-				<a class="dropdown-item" href="the team.html">The Team</a>
+	<head>
+		<meta charset="utf-8">
+		<!-- 
+        Awesome Template
+        http://www.templatemo.com/preview/templatemo_450_awesome
+        -->
+		<title>KayDush Web Developmemt</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/templatemo-style.css">
+		<link rel="shortcut icon" type="image/jpg" href="images/kd.jpg">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/custom.js"></script>
+	</head>
+	<body id="top">
+
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>+233545904452</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span>kaydush1080@gmail.com</p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Let's Socialize</span></li>
+                            <li><a href="https://www.facebook.com/kaydush" class="fa fa-facebook"></a></li>
+                            <li><a href="https://twitter.com/kay_dush" class="fa fa-twitter"></a></li>
+                            <li><a href="https://www.instagram.com/kaydush/" class="fa fa-instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+    	<!-- start navigation -->
+		<nav class="navbar navbar-default templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">KayDush</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#top">HOME</a></li>
+						<li><a href="#service">SERVICE</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<!--<li><a href="#team">TEAM</a></li>-->
+						<!--<li><a href="#portfolio">PORTFOLIO</a></li>-->
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
 			</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Services</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact Us</a>
-			</li>
-		</ul>
-	</div>
-</div>	
-</nav>
-<!-- Banner -->
-<div class="container-fluid bg-primary">
-	<div class="col-12">
-		<img class="img-fluid" src="img/banner.png">
-	</div>
-</div>
-<!--Services -->
-<div class="container-fluid padding">
-<div class="row welcome text-center serve">
-	<div class="col-12">
-		<h1 class="dispaly-4">Create with Us</h1>
-	</div>
-	<div class="col-12">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-		<i class="fas fa-palette"></i>
-		<h3>Graphic Designing</h3>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-		<i class="fas fa-file-code"></i>
-		<h3>Web Development</h3>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-		<i class="fas fa-video"></i>
-		<h3>Video Creation</h3>
-	</div>
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-		<i class="fas fa-photo-video"></i>
-		<h3>Photography</h3>
-	</div>
-</div>
-</div>
-<!-- Team -->
-<div class="container-fluid padding">
-<div class="row padding">
-	<div class="col-12 welcome text-center">
-		<h1>The Brains</h1>
-    </div>
-    <hr>
-	<div class="col-xs-12 col-sm-6 col-lg-3">
-	<div class="card">
-		<img class="card-img-top" src="img/apple.jpg">
-		<div class="card-body">
-			<h5 class="card-tilte">George Gawu-Mensah</h5>
-			<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-			<a href="the team.html" class="btn btn-outline-warning">Know More</a>
-		</div>
-	</div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-	<div class="card">
-		<img class="card-img-top" src="img/apple.jpg">
-		<div class="card-body">
-			<h5 class="card-tilte">Albert Dushie</h5>
-			<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-			<a href="the team.html" class="btn btn-outline-warning">Know More</a>
-		</div>
-	</div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-	<div class="card">
-		<img class="card-img-top" src="img/apple.jpg">
-		<div class="card-body">
-			<h5 class="card-tilte">Albert Dzade</h5>
-			<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-			<a href="the team.html" class="btn btn-outline-warning">Know More</a>
-		</div>
-	</div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-	<div class="card">
-		<img class="card-img-top" src="img/apple.jpg">
-		<div class="card-body">
-			<h5 class="card-tilte">Hanaiah Amankwah</h5>
-			<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-			<a href="the team.html" class="btn btn-outline-warning">Know More</a>
-		</div>
-	</div>
-    </div>
-</div>		
-</div>
-<!-- Brands-->
-<div class="container-fluid padding">
-	<div class="row text-center padding">
-		<div class="col-12 welcome">
-			<h2>Brands we have worked with </h2>
-		</div>
-		<hr>
-		<div class="col-xs-6 col-sm-6 col-lg-3">
-			<img src="img/apple.jpg" width="250">
-			<h5>Perfect Smile</h5>
-		</div>
-		<div class="col-xs-6 col-sm-6 col-lg-3">
-			<img src="img/apple.jpg" width="250">
-			<h5>Splash Hair</h5>
-		</div>
-		<div class="col-xs-6 col-sm-6 col-lg-3">
-			<img src="img/apple.jpg" width="250">
-			<h5>Cro.hive</h5>
-		</div>
-		<div class="col-xs-6 col-sm-6 col-lg-3">
-			<img src="img/apple.jpg" width="250">
-			<h5>Berto Designs</h5>
-		</div>
-	</div>
-</div>
-<!--Footer-->
-<div class="container-fluid padding">
-	<div class="row text-center padding Footer">
-		<div class="col-md-4 col-lg-4 icon">
-			<h3 class="text-warning">Get in touch</h3>
-			<a href="#"><i class="fab fa-facebook-square"></i></a>
-			<a href="#"><i class="fab fa-twitter"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>
-		</div>
-		<div class="col-md-4 col-lg-4 contact">
-			<h3 class="text-warning">Contact Us</h3>
-			<i class="far fa-envelope-open"><h5>hitvibes@gmail.com</h5></i>
-			<i class="fas fa-phone-square-alt"><h5>Call-+233 545904452</h5></i>
-		</div>
-		<div class="col-md-4 col-lg-4">
-			<h3 class="text-warning">Services</h3>
-				<a href="#"><h5 class="text-light">Graphic Designing</h5></a>
-				<h5 class="text-light">Web Development</h5>
-				<h5 class="text-light">Video Creation</h6>
-				<h5 class="text-light">Photography</h5>
-		</div>
-	</div>
-</div>
-<div class="container-fluid padding">
-	<div class="row text-center padding">
-		<div class="col-12">
-			<p>&copy; Copyright 2020. &quot; Developed by Hitvibes.&quot; All rights reserved.</p>
-		</div>
-	</div>
-</div>
-</body>
+		</nav>
+		<!-- end navigation -->
+
+    	<!-- start home -->
+    	<section id="home">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-offset-2 col-md-8">
+    					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s" style="text-shadow:2px 2px #000000;"> For beautiful responsive websites. It's  <span>KayDush</span></h1>
+    					<div class="element">
+                           <!-- <div class="sub-element">Hello, this is Typed.js</div>
+                            <div class="sub-element">Awesome Template is provided by templatemo.com website for everyone</div>
+                            <div class="sub-element">Download, edit and apply this awesome template for your websites</div>
+                        </div>
+    					<a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a>
+    				</div>-->
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end home -->
+
+    	<!-- start about -->
+		<section id="service">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"> <span>KayDush</span> Services</h2>
+    				</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+						<div class="media">
+							<div class="media-heading-wrapper">
+								<div class="media-object pull-left">
+									<i class="fa fa-mobile"></i>
+								</div>
+								<h3 class="media-heading">FULLY RESPONSIVE</h3>
+							</div>
+							<div class="media-body">
+								<p>Websites developed by KayDush are fully responsive, meaning it can accessed on any device at all as long as the device is a smart device. Appears very neat and runs smoothly </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
+						<div class="media">
+							<div class="media-heading-wrapper">
+								<div class="media-object pull-left">
+									<i class="fa fa-laptop"></i>
+								</div>
+								<h3 class="media-heading">WEB DESIGN</h3>
+							</div>
+							<div class="media-body">
+								<p>For a website to look good and classy it needs to be designed very well. This gives the website it's beautiful look and this attracts people to fall in love with your website.With KayDush your website is the best.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+						<div class="media">
+							<div class="media-heading-wrapper">
+								<div class="media-object pull-left">
+									<i class="fa fa-html5"></i>
+								</div>
+								<h3 class="media-heading">HTML5 &AMP; CSS3</h3>
+							</div>
+							<div class="media-body">
+								<p>	HTML5 and CSS3 are the main computer languages used to develop a website. i specialize in these languages which means you will always have a website when u contact me.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end about -->
+
+    	<!-- start team -->
+    	<section id="about">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s" style="text-align:left;">ABOUT<span> KayDush</span></h2>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+    					<div class="team-wrapper">
+    						<img src="images/home-bg 1.jpg" class="img-responsive" alt="web developer">
+    							<div class="team-des">
+    								<h4>ALBERT DUSHIE</h4>
+    								<span>WEB DEVELPOER</span>
+    								<p>Albert Dushie also known as KayDush is a young freelance web developer seeking to become one of the best with the help God. Developing websites has become one of his favourite things he likes to do and it makes him happy anytime he has the chance to creat one. </p>
+    							</div>
+    					</div>
+    				</div>
+    				<!--<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+    					<div class="team-wrapper">
+    						<img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
+    							<div class="team-des">
+    								<h4>MARY</h4>
+    								<span>Developer</span>
+    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+    					<div class="team-wrapper">
+    						<img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
+    							<div class="team-des">
+    								<h4>JULIA</h4>
+    								<span>Director</span>
+    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+    							</div>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+    					<div class="team-wrapper">
+    						<img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
+    							<div class="team-des">
+    								<h4>LINDA</h4>
+    								<span>Manager</span>
+    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+    							</div>
+    					</div>
+    				</div>
+    			</div>-->
+    		</div>
+    	</section>
+    	<!-- end team -->
+
+    	<!-- start service -->
+    	<!--<section id="team">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR <span>AWESOME</span> THINGS</h2>
+    				</div>
+    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+    					<i class="fa fa-laptop"></i>
+    					<h4>Web Design</h4>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+    				</div>
+    				<div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+    					<i class="fa fa-cloud"></i>
+    					<h4>Cloud Computing</h4>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+    				</div>
+    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+    					<i class="fa fa-cog"></i>
+    					<h4>UX Design</h4>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</section>-->
+    	<!-- end servie -->
+
+    	<!-- start portfolio -->
+    	<!--<section id="portfolio">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> PORTFOLIO</h2>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+    					   <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                                <div class="portfolio-overlay">
+                                    <h4>Project One</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Two</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Three</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Four</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Five</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Six</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Seven</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="portfolio-thumb">
+                           <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
+                                <div class="portfolio-overlay">
+                                    <h4>Project Eight</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
+                                    <a href="#" class="btn btn-default">DETAIL</a>
+                                </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+    	</section>-->
+    	<!-- end portfolio -->
+
+    	<!-- start contact -->
+    	<section id="contact">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>KayDush</span></h2>
+    				</div>
+    				<!--<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
+    					<form action="#" method="post">
+    						<label>NAME</label>
+    						<input name="fullname" type="text" class="form-control" id="fullname">
+   						  	
+                            <label>EMAIL</label>
+    						<input name="email" type="email" class="form-control" id="email">
+   						  	
+                            <label>MESSAGE</label>
+    						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
+    						
+                            <input type="submit" class="form-control">
+    					</form>
+    				</div>-->
+    				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+    					<address>
+    						<p class="address-title">CONTACT</p>
+    						<span>Interact with me anytime and anywhere at your convenience.</span>
+    						<p><i class="fa fa-phone"></i> +233545904452</p>
+    						<p><i class="fa fa-envelope-o"></i> kaydush1080@gmail.com</p>
+    						<!--<p><i class="fa fa-map-marker"></i> 663 New Walk Roadside, Birdeye View, GO 11020</p>-->
+    					</address>
+    					<ul class="social-icon">
+    						<li><h4>LET'S SOCIALIZE</h4></li>
+    						<li><a href="https://www.facebook.com/kaydush" class="fa fa-facebook"></a></li>
+    						<li><a href="https://twitter.com/kay_dush" class="fa fa-twitter"></a></li>
+    						<li><a href="https://www.instagram.com/kaydush/" class="fa fa-instagram"></a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- end contact -->
+
+        <!-- start copyright -->
+        <footer id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                       	Copyright &copy; 2019 <span>KayDush</span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end copyright -->
+
+	</body>
 </html>
